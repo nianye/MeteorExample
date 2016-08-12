@@ -1,0 +1,14 @@
+{
+  "name": "kedo.so",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "",
+    "react": "",
+    "react-addons-pure-render-mixin": "",
+    "react-dom": "",
+    "react-mounter": ""
+  }
+}

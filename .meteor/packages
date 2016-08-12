@@ -1,0 +1,30 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+blaze-html-templates
+tracker
+
+standard-minifier-css
+standard-minifier-js
+ecmascript
+
+kadira:flow-router
+aldeed:autoform
+aldeed:collection2
+mpowaga:autoform-summernote
+fortawesome:fontawesome
+twbs:bootstrap
+yogiben:autoform-tags
+coffeescript
+ian:accounts-ui-bootstrap-3
+accounts-password
+zimme:collection-timestampable
+zimme:collection-softremovable
+anti:i18n
+mquandalle:jade
+react-meteor-data
+browser-policy
+#arboleya:electrify

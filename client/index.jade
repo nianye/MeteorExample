@@ -1,0 +1,21 @@
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='description' content='')
+  meta(name='keywords' content='')
+  meta(name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no')
+  meta(name='renderer' content='webkit')
+  meta(http-equiv='Cache-Control' content='no-siteapp')
+  title kedo
+  link(rel='alternate icon' type='image/png' href='/img/favicon.png')
+body
+  header
+template(name='login')
+  +loginButtons
+template(name='admin')
+  +autoForm collection='Blogs' type='insert' id='insertNoteForm'
+    +afQuickField name='title'
+    +afQuickField name='content'
+    +afQuickField name='tags'
+    button.btn.btn-primary(type='submit') {{i18n '提交'}}
+    button.btn.btn-default(type='reset') {{i18n '取消'}}
