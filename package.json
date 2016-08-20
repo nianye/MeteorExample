@@ -1,5 +1,5 @@
 {
-  "name": "kedo.so",
+  "name": "myapp",
   "private": true,
   "scripts": {
     "start": "meteor run"
