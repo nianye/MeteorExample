@@ -1,0 +1,27 @@
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>kedo</title>
+    <link rel="alternate icon" type="image/png" href="/img/favicon.png" />
+</head>
+
+<body>
+    <header></header>
+</body>
+<template name="login">
+    {{> loginButtons}}
+</template>
+<template name="admin">
+    {{#autoForm collection='Blogs' type='insert' id='insertNoteForm'}}
+        {{> afQuickField name="title"}}
+        {{> afQuickField name="content"}}
+        {{> afQuickField name="tags"}}
+    {{/autoForm}}
+    <button type="submit" class="btn btn-primary">{{i18n '提交'}}</button>
+    <button type="reset" class="btn btn-default">{{i18n '取消'}}</button>
+</template>

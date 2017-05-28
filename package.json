@@ -5,10 +5,12 @@
     "start": "meteor run"
   },
   "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "bcrypt": "^1.0.2",
     "meteor-node-stubs": "",
-    "react": "",
+    "react": "^15.5.4",
     "react-addons-pure-render-mixin": "",
-    "react-dom": "",
-    "react-mounter": ""
+    "react-dom": "^15.5.4",
+    "react-mounter": "^1.2.0"
   }
 }
