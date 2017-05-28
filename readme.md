@@ -1,5 +1,7 @@
 npm i -g cnpm
 
+curl https://install.meteor.com/ | sh 
+
 http://decaffeinate-project.org/repl/
 
 https://atmospherejs.com
